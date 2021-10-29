@@ -1,62 +1,82 @@
-# martilil006.github.io
-Project website
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Spin-off of "Project: Travel webpage"</title>
+        <title>Spin-off of "Project: Event invite"</title>
+        <style>
+            body{
+                font-family: "garamond", serif;
+                text-align: center;
+                position:relative;
+                left:50%;
+                margin-top:100px;
+            }
+            
+            #invite {
+                background-color: rgb(242, 237, 240);
+                margin:10px;
+                padding:20px;
+                border:5px double navy;
+            }
+            
+            h1{
+                color:navy;
+                text-align:center;
+                line-height:1em;
+                font-size: 2.5em;
+                font-family: "dancing_script";
+            }
+            
+            span{
+                font-size:20px;
+                font-family: "garamond", serif;
+                color:black;
+            }
+            
+            #day{
+                float:left;
+            }
+            
+            #date{
+                
+            }
+            
+            #time{
+                float:right;
+            }
+            #info{
+                clear:both;
+            }
+            
+            button{
+                border:2px solid navy;
+                cursor: pointer;
+            }
+            
+            #front-invite{
+                position:absolute;
+                width:100%;
+                height:100%;
+                padding:200px;
+                background-color:rgb(245, 159, 188);
+                opacity:0.7;
+                z-index:1;
+                margin:auto;
+                
+            }
+        </style>
     </head>
-    <style>
-        body {
-            background: rgb(202, 232, 252);
-        }
-        .headings {
-            color:rgb(153, 22, 22);
-        }
-        h1{
-            font-size:3em;
-            text-shadow:3px 3px 5px #333;
-        }
-        
-        
-    </style>
     <body>
-    
-        <h1 class="headings">Travel to Utah</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Utah_in_United_States.svg/300px-Utah_in_United_States.svg.png" Alt="United states map, highlighting Utah">
+        <h1 id="front-invite">You're Invited!</h1>
+        <div id="invite">
+        <h1>Lilian Martin <br><span>and</span><br> Leonardo Leano</h1>
+        <p>Request the honor of your presence on their wedding day.</p>
+        <h2><span id="day">Saturday</span> <span id="date">May 2nd, 2022</span> <span id="time">5:00 PM</span></h2>
+            <div id="info">
+                <p>Kahlert Village. 265 S 1850 E, Salt Lake City, UT</p>
+                <p>Reception to follow. Cocktail Attire.</p></div>
+        <button>RSVP</button>
+        </div>
         
-        <p> <strong>Utah</strong>, known as the Beehive State, is one of the most beautiful, economically diverse states in the U.S. 
-            <h3> Table of Contents</h3><ul>
-                <li><a href="#places"> Places to visit</a></li>
-                <li><a href="#activities"> Activities</a></li>
-                <li>More info</li>
-            </ul>
-        </P>
-        <h2 class="headings">Best Places to Visit in Utah</h2>
-        <p> 
-        <img id="places" src="https://upload.wikimedia.org/wikipedia/commons/1/10/Zion_angels_landing_view.jpg" Alt="Zion Canyon from Angels Landing at sunset." width="300"> 
-        <ol>
-            <li>Zion National Park</li>
-            <li> Arches National Park</li>
-            <li> Monument Valley</li>
-            <li>Canyonlands National Park </li> 
-            <li>Brce Canyon National Park</li>
-            <li> Salt Lake City and the Mormon Temple
-        </ol>
-        According to PlanetWare.com
-        </p>
-        <p> 
-        <h2 id="activities" class="headings">Activities to Do</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/en/7/72/Clark_Planetarium_Exterior_Composited.JPG" Alt="Clark Planetarium exterior with superimposed nebula." Width="300">
-        <ul>
-            <li>Lagoon Amusement Park</li>
-            <li> Living Planet Aquarium </li>
-            <li> Clark Planetarium </li> 
-            <li> Mormon Temple </li>
-            <li> Outdoor Recreation</li>
-        </ul>
-        <h2 class="headings">More Info</h2>
-
-    
     </body>
 </html>
